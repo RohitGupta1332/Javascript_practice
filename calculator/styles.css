@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+.main{
+    margin-top: 30px;
+}
+.heading{
+    color: white;
+    text-align: center;
+}
+.calculator{
+    height: 60vh;
+    width: 42vh;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1vmin;
+    margin: 3px;
+}
+.num, .btn{
+    border-radius: 10px;
+    height: 9vmin;
+    width: 9vmin;
+    font-size: 20px;
+}
+.screen{
+    height: 10vmin;
+    width: 39vmin;
+    padding: 10px;
+    font-weight: bold;
+    margin-left: 11px;
+    margin-bottom: 3px;
+    margin-top: 5px;
+    font-size: 25px;
+    border: 2px solid black;
+    text-align: right;
+}
