@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #E1F0DA;
+    text-align: center;
+}
+h1{
+    background-color: #211C6A;
+    color: white;
+    padding: 25px;
+}
+.main{
+    height: 70vh;
+    margin: 30px;
+}
+.options{
+    height: 25vmin;
+    margin: 60px;
+}
+.option{
+    height: 20vmin;
+    width: 20vmin;
+    border-radius: 80px;
+    font-size: 30px;
+    color: white;
+    border: none;
+}
+#rock{
+    background-image: url('rock.png');
+}
+#paper{
+    background-image: url('paper.png');
+
+}
+#scissor{
+    background-image: url('scissors.png');
+
+}
+.score{
+    margin: 45px;
+}
+.comp-choice{
+    height: 8vmin;
+    width: 60vmin;
+    font-size: 30px;
+    background-color: rgb(243, 66, 66);
+    color: white;
+    border-radius: 25px;
+}
+.user-score, .comp-score{
+    height: 6vmin;
+    width: 6vmin;
+    font-size: 20px;
+    margin-right: 60px;
+    margin-left: 25px;
+    margin-top: 20px;
+}
